@@ -263,3 +263,29 @@ a {
     font-size: 20px;
     text-align: justify;
 }
+
+@keyframes hover1 {
+    10%{color: rebeccapurple;}
+    20%{color: red;}
+    30%{color: yellow;}
+    40%{color: green;}
+    50%{color: tomato;}
+    60%{color: blue;}
+    70%{color: gray;}
+    80%{color: indigo;}
+    90%{color: aqua;}
+    100%{color: pink;}
+}
+
+
+#footer {
+    margin-top: 46px;
+}
+
+#footer .text-cpr {
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}

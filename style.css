@@ -79,11 +79,11 @@ a {
 
 .content {
     width: 900px;
-    height: 590px;
+    height: 680px;
     margin: 50px auto 0 auto;
     border-radius: 10px;
     background-color: rgb(0 0 0 / 59%);
-    transition: all 1.0s;
+    transition: all 2.0s;
     animation: intro 1.5s ease-in-out;
 }
 
@@ -229,4 +229,17 @@ a {
     80%{color: indigo;}
     90%{color: aqua;}
     100%{color: pink;}
+}
+
+
+#footer {
+    margin-top: 46px;
+}
+
+#footer .text-footer {
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
 }
